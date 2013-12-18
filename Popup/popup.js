@@ -1,10 +1,4 @@
-var location = "http://app1.com/";
-var app_id = "urbilog";
-var assistance_base = 'http://dsi-liris-silex.univ-lyon1.fr/ozalid/assist/';
-var assistance_server =  'http://dsi-liris-silex.univ-lyon1.fr/';
-var assistance_win = null;
-var visualisation_uri = "http://dsi-liris-silex.univ-lyon1.fr/ozalid/assist/index.php?page=TraceView";
-var user_id = 'u1';
+
 var Trace_Name = localStorage["Trace_Active"];
 var BASE_URI = localStorage["trace_options_Base_URI"] ;
 
@@ -28,6 +22,11 @@ document.addEventListener('DOMContentLoaded', function () {
     // show Trace
     var trace = document.getElementById('Trace');
     trace.addEventListener("click", function(){
+ var assistance_base = 'http://dsi-liris-silex.univ-lyon1.fr/ozalid/assist/';
+var assistance_server =  'http://dsi-liris-silex.univ-lyon1.fr/';
+var assistance_win = null;
+var visualisation_uri = "http://dsi-liris-silex.univ-lyon1.fr/ozalid/assist/index.php?page=TraceView";
+var user_id = 'u1';
         assistance_win = window.open (visualisation_uri,"assistance");
 	    //opened = true;
 	    var i = setTimeout(function(){

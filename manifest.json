@@ -11,7 +11,7 @@
   
   "content_scripts": [
     {
-      "matches" : [ "http://*/*" ],
+      "matches" : [ "http://*/*","https://*/*" ],
       "js": ["tService/js/jquery.js", "userScript.js"],
       "run_at" : "document_idle",
       "all_frames" : false

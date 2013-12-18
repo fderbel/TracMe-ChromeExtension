@@ -20,7 +20,7 @@ var fonction =  function (e) {
  attribute.end = (new Date()).getTime();
  attribute.subject="Location";
  attribute.url = document.URL;
- attributes.type="URL";
+ attribute.type="URL";
  chrome.extension.sendRequest({mess:'obsel',OBSEL:attribute}, function(response) {});
  
  // get configurate  information from background.js
