@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "Trace Me",
+  "description": "This extension allow to collect traces and send them to a server.",
+  "version": "1.0",
+  "options_page": "/Option/options.html",
+  "background" : {
+    "scripts": ["tService/js/jquery.js","tService/lib/tService.js","background.js"]
+  },
+  
+  "content_scripts": [
+    {
+      "matches" : [ "http://*/*" ],
+      "js": ["tService/js/jquery.js", "userScript.js"],
+      "run_at" : "document_idle",
+      "all_frames" : false
+    }
+  ],
+  
+  
+  "browser_action": {
+    "default_icon": "/img/icon.png",
+    "default_popup":"/Popup/popup.html"
+  },
+  "permissions": ["http://*/*"]
+}

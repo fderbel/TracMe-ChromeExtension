@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trace Me Extension popup</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="/bootstrap/css/bootstrap-theme.min.css">
+        <style> 
+        body {min-width: 400px;
+              min-height: 50px;
+             }
+       select {
+              width: 200px;
+              }
+        </style>
+ </head>
+  <body>
+  <table class="table" > 
+  <tr>
+        <th> Activity</th>
+        <th> Value</th>
+  </tr>
+  <tr> 
+        <td> Trace Name </td>
+        <td> <SELECT Id="TraceID" size="1"> </SELECT> </td>
+  </tr>
+  
+  </table>
+  <button type="button" class="btn btn-primary btn-xs" id="Trace" >Show Trace</button>
+  <button type="button" class="btn btn-primary btn-xs" id="Option" >Change Option</button>
+  <button type="button" class="btn btn-primary btn-xs" id="File" >Configuration file</button>
+    
+  </body>
+</html>
+<script src="/tService/js/jquery.js"></script>
+<script src="/Popup/popup.js"></script>
