@@ -10,7 +10,12 @@ var mgr = new tService.TraceManager({base_uri: BASE_URI , async: true});
 trc = mgr.init_trace({name: Trace_Name	}); 
 // recive mess
 if (request.mess=="confg")
-{var data = JSON.parse(localStorage["Config"]) ; console.log (data) ; sendResponse({status: data});}
+{
+if  (localStorage["Config"]!="undefined")
+        {var data = JSON.parse(localStorage["Config"]) ; 
+        sendResponse({status: data});}
+        
+}
 else 
 if (request.mess=="popup") 
    {
