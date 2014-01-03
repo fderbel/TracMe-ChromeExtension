@@ -19,9 +19,14 @@ Option:
 ======================
 
 you must complete the information in the form option :
+
     - Information about identity of user
+    
     - Information about Server
-    - The name of activities (trace) : you can add more activities
+    
+    - The name of activities (trace-name) : you can add more activities
+    
+After you should select the name of trace in the popup of extention.
 
 Configuration : 
 ======================
