@@ -1235,96 +1235,6 @@
                             "Selector": "div#session_0 > ol > li > strong > a,div#session_0 > ol > li > a.link-category"
                         }
                     ]
-                },
-				{
-                    "type": "click",
-                    "typeObsel": "Click-Lien-Presentation",
-                    "selectors": [
-                        {
-                            "frame": "",
-                            "Selector": "div#widgets-list-panel > div.panel.panel-default.widget-instance-panel > div#collapse881.collapse-widget.collapse.in > div.panel-body.widget-instance-view > div > h3 > span > span > a > span"
-                        }
-                    ]
-                },
-                {
-                    "type": "click",
-                    "typeObsel": "Click-Lien-Presentation",
-                    "selectors": [
-                        {
-                            "frame": "",
-                            "Selector": "div#widgets-list-panel > div.panel.panel-default.widget-instance-panel > div#collapse881.collapse-widget.collapse.in > div.panel-body.widget-instance-view > div > h4 > span > a > span"
-                        }
-                    ]
-                },
-                {
-                    "type": "click",
-                    "typeObsel": "Click-Lien-Presentation",
-                    "selectors": [
-                        {
-                            "frame": "",
-                            "Selector": "div#widgets-list-panel > div.panel.panel-default.widget-instance-panel > div#collapse881.collapse-widget.collapse.in > div.panel-body.widget-instance-view > div > p > strong > span > span > a > span"
-                        }
-                    ]
-                },
-                {
-                    "type": "click",
-                    "typeObsel": "Click-Lien-Presentation",
-                    "selectors": [
-                        {
-                            "frame": "",
-                            "Selector": "div#widgets-list-panel > div.panel.panel-default.widget-instance-panel > div#collapse881.collapse-widget.collapse.in > div.panel-body.widget-instance-view > div > p > strong > a > span"
-                        }
-                    ]
-                },
-                {
-                    "type": "click",
-                    "typeObsel": "Click-Lien-Presentation",
-                    "selectors": [
-                        {
-                            "frame": "",
-                            "Selector": " div#widgets-list-panel > div.panel.panel-default.widget-instance-panel > div#collapse881.collapse-widget.collapse.in > div.panel-body.widget-instance-view > div > p"
-                        }
-                    ]
-                },
-                {
-                    "type": "click",
-                    "typeObsel": "Click-Lien-Presentation",
-                    "selectors": [
-                        {
-                            "frame": "",
-                            "Selector": "div#widgets-list-panel > div.panel.panel-default.widget-instance-panel > div#collapse881.collapse-widget.collapse.in > div.panel-body.widget-instance-view > div > h4 > strong > a > span"
-                        }
-                    ]
-                },
-                {
-                    "type": "click",
-                    "typeObsel": "Click-Lien-Presentation",
-                    "selectors": [
-                        {
-                            "frame": "",
-                            "Selector": "div#widgets-list-panel > div.panel.panel-default.widget-instance-panel > div#collapse881.collapse-widget.collapse.in > div.panel-body.widget-instance-view > div > strong > span > a > span"
-                        }
-                    ]
-                },
-                {
-                    "type": "click",
-                    "typeObsel": "Click-Lien-Presentation",
-                    "selectors": [
-                        {
-                            "frame": "",
-                            "Selector": "div#widgets-list-panel > div.panel.panel-default.widget-instance-panel > div#collapse881.collapse-widget.collapse.in > div.panel-body.widget-instance-view > div > ul > li > p > span > a > span"
-                        }
-                    ]
-                },
-                {
-                    "type": "click",
-                    "typeObsel": "Click-Lien-Presentation",
-                    "selectors": [
-                        {
-                            "frame": "",
-                            "Selector": "div#widgets-list-panel > div.panel.panel-default.widget-instance-panel > div#collapse881.collapse-widget.collapse.in > div.panel-body.widget-instance-view > div > ul > li > p > span > span > a > span"
-                        }
-                    ]
                 }
             ]
         },
@@ -1495,6 +1405,22 @@
                 {
                     "type": "click",
                     "typeObsel": "click-Lien-Tutoriel",
+                    "selectors": [
+                        {
+                            "frame": "",
+                            "Selector": "a"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "URL": "http://claco.univ-lyon1.fr/workspaces/802/open/tool/no_config/home/tab/971",
+            "HostName": "",
+            "event": [
+                {
+                    "type": "click",
+                    "typeObsel": "Click-Lien-Presentation",
                     "selectors": [
                         {
                             "frame": "",
